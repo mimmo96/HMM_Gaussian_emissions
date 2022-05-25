@@ -1,2 +1,3 @@
-# ISPR-Mid2
+# Hidden Markov Model with Gaussian emissions 
+
 Hidden Markov Model with Gaussian emissions of the dataset which measure the energy consumption of appliances and lights, across a period of 4.5 months.  Once trained the HMMs, perform Viterbi on a reasonably sized subsequence (e.g. 1 month of data), plot the timeseries data highlighting (e.g. with different colours) the hidden state assigned to each  timepoint by the Viterbi algorithm.   Then,sampling a sequence of at least 100 points from the trained HMMs and show it on a plot discussing similarities and differences w.r.t. the ground truth data.
